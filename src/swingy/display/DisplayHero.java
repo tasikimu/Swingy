@@ -1,92 +1,69 @@
-public class GameView {
-    private static int level;
-    private static int attack;
-    private static int defense;
-    private static int hitpoints;
-    private static int experience;
-    private static String artifact;
-    private static String stats;
-    private static Hero newHero = new Hero();
-    private static Hero dbHero = new Hero();
+public class DisplayHero extends DisplayHeroStats {
 
-    public static Hero addHero(String type, String player){
-        artifact = Artifacts.randomiseArtifact();
+    public static String WelcomePlayer() {
+        System.out.println("Please enter Hero name to continue\n");
+        String player = null;
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextLine()) {
+            player = scanner.nextLine();
+            player = player.trim();
 
-        if (artifact.equals("WEAPON")){
-            Weapon weapon = new Weapon("Weapon");
-            level = 1;
-            attack = 100 + weapon.getAttack();
-            defense = 100;
-            hitpoints = 100;
-            experience = 1000;
-            HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
-            newHero = Players.newPlayer(type, player, heroStats, weapon);
-            stats = type + " " + player + " " + level + " " + attack + " " + defense + " " + hitpoints + " " + experience + " " + artifact;
+            if (player.length() > 0) {
+                String[] check = player.split("\\s");
+                if (check != null)
+                    player = String.join("_", check);
+                break;
+            } else
+                System.out.println("Player name cannot be null, please enter your new hero");
         }
-        else if (artifact.equals("ARMOR")){
-            Armor armor = new Armor("Armor");
-            level = 1;
-            attack = 100;
-            defense = 100 + armor.getDefense();
-            hitpoints = 100;
-            experience = 1000;
-            HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
-            newHero = Players.newPlayer(type, player, heroStats, armor);
-            stats = type + " " + player + " " + level + " " + attack + " " + defense + " " + hitpoints + " " + experience + " " + artifact;
-        }
-        else if (artifact.equals("HELM")){
-            Helm helm = new Helm("Helm");
-            level = 1;
-            attack = 100 + helm.getHitPoints();
-            defense = 100;
-            hitpoints = 100;
-            experience = 1000;
-            HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
-            newHero = Players.newPlayer(type, player, heroStats, helm);
-            stats = type + " " + player + " " + level + " " + attack + " " + defense + " " + hitpoints + " " + experience + " " + artifact;
-        }
-
-        WriteFile.writeToFile(stats);
-        return newHero;
+        return player;
     }
 
-    public static Hero NewHero(String player, long type){
-        if (type == 1){
-            return addHero("Assassian", player);
+    public static int playerSetUp() {
+        System.out.println("*****WELCOME TO SWINGY*******\n\n" +
+                "1. Create a new hero\n" +
+                "2. Selected existing hero\n");
+
+        int option = 0;
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
+
+            if (line.matches("\\s*[1-2]\\s*")) {
+                option = Integer.parseInt(line);
+                break;
+            } else
+                System.out.println("Invalid input. Try again.");
         }
-        else if (type == 2){
-            return addHero("Ninja", player);
-        }
-        else
-            return null;
+        return option;
     }
 
-    public static Hero dbHero(String hero){
-        String[] items = hero.split(" ");
-        int i = 0;
+    public static int printHeroSelection() {
+        System.out.println("Choose your class \n" +
+                "1. Assassian\n" +
+                "2. Ninja\n");
 
-        String type = items[0];
-        String player = items[1];
-        int level = Integer.parseInt(items[2]);
-        int attack = Integer.parseInt(items[3]);
-        int defense = Integer.parseInt(items[4]);
-        int hitpoints = Integer.parseInt(items[5]);
-        int experience = Integer.parseInt(items[6]);
-        String artifact = items[7];
-        HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
+        int option = 0;
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
 
-        if (artifact.equals("WEAPON")){
-            Weapon weapon = new Weapon("Weapon");
-            dbHero = Players.newPlayer(type, player, heroStats, weapon);
+            if (line.matches("\\s*[1-2]\\s*")) {
+                option = Integer.parseInt(line);
+                break;
+            } else
+                System.out.println("Invalid input. Please choose either one of the options below");
         }
-        else if (artifact.equals("ARMOR")){
-            Armor armor = new Armor("Armor");
-            dbHero = Players.newPlayer(type, player, heroStats, armor);
-        }
-        else if (artifact.equals("HELM")){
-            Helm helm = new Helm("Helm");
-            dbHero = Players.newPlayer(type, player, heroStats, helm);
-        }
-        return dbHero;
+        return option;
     }
+
+    public static void printDirections() {
+        System.out.println("\n\n***** SELECT DIRECTION ******\n\n" +
+                "1. North\n" +
+                "2. South\n" +
+                "3. East\n" +
+                "4. West\n" +
+                "5. Quit Game\n");
+    }
+
 }
