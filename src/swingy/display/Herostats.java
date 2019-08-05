@@ -1,4 +1,4 @@
-public class DisplayHeroStats {
+public class Herostats {
 
     public static int printDetails(long choice, String player, Hero hero) {
         System.out.println("Welcome to the game of heroes...SWINGY...\n\n" + player + ", Here is your stats: ");
