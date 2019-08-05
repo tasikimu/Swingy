@@ -1,4 +1,4 @@
-public class GameView {
+public class StartGame {
     private static int level;
     private static int attack;
     private static int defense;
