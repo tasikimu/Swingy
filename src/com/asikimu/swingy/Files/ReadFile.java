@@ -1,4 +1,6 @@
-package swingy.Files;
+package com.asikimu.swingy.Files;
+
+import java.io.*;
 
 public class ReadFile {
    public static int getLinesCount() {

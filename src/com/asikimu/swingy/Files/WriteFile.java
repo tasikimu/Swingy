@@ -1,4 +1,8 @@
-package swingy.Files;
+package com.asikimu.swingy.Files;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class WriteFile {
   public static File file = null;

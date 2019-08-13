@@ -1,4 +1,8 @@
-public class DisplayHero extends DisplayHeroStats {
+package com.asikimu.swingy.display;
+
+import java.util.Scanner;
+
+public class DisplayHero {
 
     public static String WelcomePlayer() {
         System.out.println("Please enter Hero name to continue\n");
