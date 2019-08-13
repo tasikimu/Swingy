@@ -60,7 +60,7 @@ public class ReadFile {
         return items[(int) hero - 1];
     }
 
-    public static void updateFile(Hero hero) {
+    public static void updateFile(com.asikimu.swingy.CreateHero.Hero hero) {
         try {
             String[] items = ReadLine();
             String deleteLine = null;

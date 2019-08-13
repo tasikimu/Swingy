@@ -1,8 +1,11 @@
 package com.asikimu.swingy.display;
 
+import com.asikimu.swingy.CreateHero.Hero;
+import com.asikimu.swingy.CreateHero.HeroStats;
+
 import java.util.Scanner;
 
-public class Herostats {
+public class Herostats extends HeroStats {
 
     public static int printDetails(long choice, String player, Hero hero) {
         System.out.println("Welcome to the game of heroes...SWINGY...\n\n" + player + ", Here is your stats: ");

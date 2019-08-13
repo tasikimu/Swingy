@@ -1,6 +1,8 @@
 package com.asikimu.swingy.display;
 
+import com.asikimu.swingy.CreateHero.Hero;
 import com.asikimu.swingy.Files.WriteFile;
+import com.asikimu.swingy.map.Players;
 
 public class StartGame {
     private static int level;
