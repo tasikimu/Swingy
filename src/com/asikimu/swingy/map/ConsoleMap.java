@@ -276,8 +276,8 @@ public class ConsoleMap {
         if ((herox == vilx) && (heroy == vily)) {
             System.out.println("You have encountered a villian\n\n" +
                     "What do you wanna do:\n" +
-                    "1. Run from enemy\n" +
-                    "2. Fight the enemy\n");
+                    "1. Run \n" +
+                    "2. Fight\n");
 
             Scanner scanner = new Scanner(System.in);
             while (scanner.hasNextLine()) {
@@ -291,7 +291,7 @@ public class ConsoleMap {
                         int run = random.nextInt(2) + 1;
 
                         if (run == 1) {
-                            System.out.println("Ha ha ha...you are such a sissi, now you lost 5XP\n");
+                            System.out.println("Ha ha ha...you are such a baby, now you lost 5XP\n");
                             System.out.println("Your current XP: " + (hero.getHeroStats().getExperience() - 5));
                             printMap();
                         }

@@ -45,7 +45,7 @@ public class DisplayGui extends JFrame {
         label = new JLabel("CREATE PLAYER");
         label.setBackground(Color.red);
         label.setBounds(220,200, 200,30);
-        label1 = new JLabel("PLEASE ENTER YOUR NAME");
+        label1 = new JLabel("ENTER NAME PLEASE");
         label1.setBounds(210,240, 200,30);
         label.setBackground(Color.GREEN);
         playerName = new JTextField();
@@ -86,7 +86,7 @@ public class DisplayGui extends JFrame {
                     }
                 }
                 else
-                    JOptionPane.showMessageDialog(null, "Blank spaces not allowed!");
+                    JOptionPane.showMessageDialog(null, "Blank spaces are not allowed!");
 
             }
         });
@@ -337,7 +337,7 @@ public class DisplayGui extends JFrame {
         JLabel label;
         JButton close;
 
-        label = new JLabel("****And You continue with your adventure****");
+        label = new JLabel("****Going on with ur Adventure****");
         label.setBounds(200,240, 400,30);
         close = new JButton("COMPLETE GAME");
         close.setBounds(210,280, 200,30);

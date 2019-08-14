@@ -243,7 +243,7 @@ public class GuiMap extends JFrame {
                 xp = 12200;
                 hero.getHeroStats().setExperience(xp);
             } else if (hero.getHeroStats().getExperience() < 12201) {
-                System.out.println("******CONGRADULATIONS GAME COMPLETED. GOODBYE. ******\n\n");
+                System.out.println("******GAME COMPLETED CONGRATS, SEE YOU SOON. ******\n\n");
                 DisplayGui.gameOver();
             }
             hasWon();
@@ -256,12 +256,12 @@ public class GuiMap extends JFrame {
         if ((hx == ex) && (hy == ey)) {
             enemy = getCrossedVillian();
             int dialogButton = JOptionPane.YES_NO_OPTION;
-            int dialogResult = JOptionPane.showConfirmDialog(this, "You have encountered a villian, do you wanna fight?", "Run or Fight?", dialogButton);
+            int dialogResult = JOptionPane.showConfirmDialog(this, "You've met Villian, Do you wana fight him?", "Run or Fight?", dialogButton);
             if (dialogResult == 0) {
                 if (fight() == 1) {
                     return true;
                 } else {
-                    JOptionPane.showMessageDialog(null, "You have been defeated\n\n<<<<GAME OVER>>>>>");
+                    JOptionPane.showMessageDialog(null, "You have lost\n\n<<<<GAME OVER>>>>>");
                     frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
 
                 }
@@ -281,7 +281,7 @@ public class GuiMap extends JFrame {
                         upgradeXP(2);
                         return true;
                     } else {
-                        JOptionPane.showMessageDialog(null, "You have been defeated\n\n<<<<GAME OVER>>>>>");
+                        JOptionPane.showMessageDialog(null, "You have lost\n\n<<<<GAME OVER>>>>>");
                         frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
                     }
                 }
@@ -336,7 +336,7 @@ public class GuiMap extends JFrame {
                 }
             }
         } else
-            JOptionPane.showMessageDialog(null, "You are too weak to fight, go home, relax a bit and regain your strength");
+            JOptionPane.showMessageDialog(null, "Need more strength, I suggest you go home and relax, In order to regain and continue fighting");
         return won;
     }
 }

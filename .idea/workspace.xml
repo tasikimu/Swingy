@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51fe9e24-d77c-459c-99eb-4d334d4eb528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Heroes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/HeroLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +13,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="181" column="32" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="32" />
+            <state relative-caret-position="513">
+              <caret line="339" column="58" selection-start-line="339" selection-start-column="58" selection-end-line="339" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#10491#10492#0" expanded="true" />
@@ -69,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3613">
-              <caret line="246" column="26" selection-start-line="246" selection-start-column="26" selection-end-line="246" selection-end-column="26" />
+            <state relative-caret-position="5408">
+              <caret line="338" column="142" selection-start-line="338" selection-start-column="142" selection-end-line="338" selection-end-column="142" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1376">
-              <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+            <state relative-caret-position="192">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/HeroStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+            <state relative-caret-position="32">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="12" />
               <folding>
                 <element signature="e#591#592#0" expanded="true" />
                 <element signature="e#618#619#0" expanded="true" />
@@ -121,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,15 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Heroes.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-443">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="281">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,6 +152,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sse</find>
+      <find>ss</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,14 +179,14 @@
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Skeleton.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Monster.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java" />
-        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/main.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" />
       </list>
     </option>
   </component>
@@ -230,27 +230,6 @@
               <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="Files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swingy" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,14 +239,6 @@
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="CreateHero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swingy" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="Villians" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,51 +306,57 @@
       <updated>1565686419512</updated>
       <workItem from="1565686438606" duration="897000" />
       <workItem from="1565693973518" duration="3032000" />
-      <workItem from="1565774295067" duration="4733000" />
+      <workItem from="1565774295067" duration="6064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8662000" />
+    <option name="totallyTimeSpent" value="9993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936507" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936507" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32936507" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936507" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32936507" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936507" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Swingy$main.ic" NAME="main Coverage Results" MODIFIED="1565781678900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.asikimu.swingy.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/mainFrame.java">
@@ -546,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3613">
-          <caret line="246" column="26" selection-start-line="246" selection-start-column="26" selection-end-line="246" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -578,28 +545,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/HeroLevel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="181" column="32" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="32" />
+        <state relative-caret-position="128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10491#10492#0" expanded="true" />
-            <element signature="e#10552#10553#0" expanded="true" />
-            <element signature="e#10698#10699#0" expanded="true" />
-            <element signature="e#10758#10759#0" expanded="true" />
-            <element signature="e#10903#10904#0" expanded="true" />
-            <element signature="e#10963#10964#0" expanded="true" />
-            <element signature="e#11108#11109#0" expanded="true" />
-            <element signature="e#11169#11170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/asikimu/swingy/model/Weapons/Artifacts.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heroes.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/HeroStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        <state relative-caret-position="32">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="12" />
           <folding>
             <element signature="e#591#592#0" expanded="true" />
             <element signature="e#618#619#0" expanded="true" />
@@ -625,58 +620,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/HeroLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1376">
-          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        <state relative-caret-position="192">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-443">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="5408">
+          <caret line="338" column="142" selection-start-line="338" selection-start-column="142" selection-end-line="338" selection-end-column="142" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/asikimu/swingy/model/Weapons/Artifacts.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heroes.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="513">
+          <caret line="339" column="58" selection-start-line="339" selection-start-column="58" selection-end-line="339" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#10491#10492#0" expanded="true" />
+            <element signature="e#10552#10553#0" expanded="true" />
+            <element signature="e#10698#10699#0" expanded="true" />
+            <element signature="e#10758#10759#0" expanded="true" />
+            <element signature="e#10903#10904#0" expanded="true" />
+            <element signature="e#10963#10964#0" expanded="true" />
+            <element signature="e#11108#11109#0" expanded="true" />
+            <element signature="e#11169#11170#0" expanded="true" />
           </folding>
         </state>
       </provider>
