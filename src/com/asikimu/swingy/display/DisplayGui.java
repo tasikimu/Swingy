@@ -1,6 +1,6 @@
 package com.asikimu.swingy.display;
 
-import com.asikimu.swingy.CreateHero.Hero;
+import com.asikimu.swingy.model.CreateHero.*;
 import com.asikimu.swingy.Files.ReadFile;
 import com.asikimu.swingy.Files.WriteFile;
 import com.asikimu.swingy.map.GuiMap;
@@ -34,7 +34,7 @@ public class DisplayGui extends JFrame {
     private JTextField playerName;
     private JTextArea area;
     private JButton welcomeBtn, createPlayer, selectPlayer;
-    private com.asikimu.swingy.CreateHero.Hero hero = new Hero();
+    private Hero hero = new Hero();
     private GuiMap map;
 
 

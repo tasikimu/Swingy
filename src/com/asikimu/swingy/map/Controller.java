@@ -3,6 +3,7 @@ package com.asikimu.swingy.map;
 import com.asikimu.swingy.Files.ReadFile;
 import com.asikimu.swingy.display.DisplayHero;
 import com.asikimu.swingy.model.CreateHero.Hero;
+import com.asikimu.swingy.model.Villians.Villian;
 
 import java.io.Console;
 import java.util.Random;
@@ -63,7 +64,7 @@ public class Controller {
         return false;
     }
 
-    public static int fight(Hero hero, com.asikimu.swingy.Villians.Villian enemy) {
+    public static int fight(Hero hero, Villian enemy) {
         int fight = 0, won = 0, hit = 0;
         Random random = new Random();
 

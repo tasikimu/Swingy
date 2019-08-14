@@ -1,7 +1,7 @@
 package com.asikimu.swingy.display;
 
-import com.asikimu.swingy.CreateHero.Hero;
-import com.asikimu.swingy.CreateHero.HeroStats;
+import com.asikimu.swingy.model.CreateHero.Hero;
+import com.asikimu.swingy.model.CreateHero.HeroStats;
 import com.asikimu.swingy.model.Weapons.Weapon;
 
 import java.util.Scanner;

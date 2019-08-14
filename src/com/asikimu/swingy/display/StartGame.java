@@ -1,8 +1,9 @@
 package com.asikimu.swingy.display;
 
-import com.asikimu.swingy.CreateHero.Hero;
+import com.asikimu.swingy.model.CreateHero.Hero;
 import com.asikimu.swingy.Files.WriteFile;
 import com.asikimu.swingy.map.Players;
+import com.asikimu.swingy.model.CreateHero.HeroStats;
 import com.asikimu.swingy.model.Weapons.Armor;
 import com.asikimu.swingy.model.Weapons.Artifacts;
 import com.asikimu.swingy.model.Weapons.Helm;
