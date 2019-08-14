@@ -2,6 +2,7 @@ package com.asikimu.swingy.display;
 
 import com.asikimu.swingy.CreateHero.Hero;
 import com.asikimu.swingy.CreateHero.HeroStats;
+import com.asikimu.swingy.model.Weapons.Weapon;
 
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Herostats extends HeroStats {
         System.out.println("Welcome to the game of heroes...SWINGY...\n\n" + player + ", Here is your stats: ");
         if (choice == 1) {
             System.out.println("You are a Fighter \n" +
-                    "Your Level is: " + hero.getHerostats().getLevel() + "\n" +
+                    "Your Level is: " + hero.getHeroStats().getLevel() + "\n" +
                     "Your Attack: " + hero.getHeroStats().getAttack() + "\n" +
                     "Your Defense: " + hero.getHeroStats().getDefense() + "\n" +
                     "Your Experience: " + hero.getHeroStats().getExperience() + "\n" +

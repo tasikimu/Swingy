@@ -1,4 +1,4 @@
-package com.asikimu.swingy.CreateHero;
+package com.asikimu.swingy.model.CreateHero;
 
 public class HeroStats {
   private String heroType;
@@ -81,4 +81,4 @@ public class HeroStats {
 	}
 
 }
-}
+

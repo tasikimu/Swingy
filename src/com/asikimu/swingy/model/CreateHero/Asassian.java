@@ -1,7 +1,9 @@
-package com.asikimu.swingy.CreateHero;
+package com.asikimu.swingy.model.CreateHero;
 
-public class Assassian extends Hero {
-	public Assassian(String newHero, HeroStats stats, Artifacts artifact){
+import com.asikimu.swingy.model.Weapons.Artifacts;
+
+public class Asassian extends Hero {
+	public Asassian(String newHero, HeroStats stats, Artifacts artifact){
 		super(newHero, stats, artifact);
 	}
 }

@@ -1,5 +1,7 @@
 package com.asikimu.swingy.Files;
 
+import com.asikimu.swingy.model.CreateHero.Hero;
+
 import java.io.*;
 
 public class ReadFile {
@@ -60,7 +62,7 @@ public class ReadFile {
         return items[(int) hero - 1];
     }
 
-    public static void updateFile(com.asikimu.swingy.CreateHero.Hero hero) {
+    public static void updateFile(Hero hero) {
         try {
             String[] items = ReadLine();
             String deleteLine = null;

@@ -1,4 +1,6 @@
-package com.asikimu.swingy.Villians;
+package com.asikimu.swingy.model.Villians;
+
+import com.asikimu.swingy.model.Weapons.Artifacts;
 
 public class Monster  extends Villian {
 

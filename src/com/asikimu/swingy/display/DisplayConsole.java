@@ -1,22 +1,27 @@
 package com.asikimu.swingy.display;
 
+import com.asikimu.swingy.Files.ReadFile;
+import com.asikimu.swingy.map.Controller;
+
+import java.util.Scanner;
+
 public class DisplayConsole {
    public static void begin() {
         String player;
         int type, createHero, option = 0, play;
-        Hero hero;
+        com.asikimu.swingy.CreateHero.Hero hero;
 
         try {
-            createHero = HeroDisplay.playerSetUp();
+            createHero = DisplayHero.playerSetUp();
 
             if (createHero == 1) {
-                player = HeroDisplay.WelcomePlayer();
-                type = HeroDisplay.printHeroSelection();
-                hero = GameView.NewHero(player, type);
-                play = DisplayHeroStats.printDetails(type, player, hero);
+                player = DisplayHero.WelcomePlayer();
+                type = DisplayHero.printHeroSelection();
+                hero = StartGame.NewHero(player, type);
+                play = Herostats.printDetails(type, player, hero);
                 if (play == 1) {
 
-                    GameController.run(hero);
+                    Controller.run(hero);
                 } else {
                     System.out.println("****** Its a pity you chose to leave, u would have enjoyed the game!!! ******\n\n");
                     System.exit(0);
@@ -45,8 +50,8 @@ public class DisplayConsole {
                     else
                         System.out.println("Invalid input. Try again.");
                 }
-                hero = GameView.dbHero(ReadFile.getHero(option));
-                GameController.run(hero);
+                hero = StartGame.dbHero(ReadFile.getHero(option));
+                Controller.run(hero);
             }
         }
         catch (Exception e) {

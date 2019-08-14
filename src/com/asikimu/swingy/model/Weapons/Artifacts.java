@@ -1,5 +1,7 @@
 package com.asikimu.swingy.model.Weapons;
 
+import java.util.Random;
+
 public class Artifacts {
   private String type;
     private static final String artifacts[] = {"WEAPON", "ARMOR", "HELM"};
@@ -21,5 +23,4 @@ public class Artifacts {
 	public String getType(){
 		return this.type;
 	}
-}
 }

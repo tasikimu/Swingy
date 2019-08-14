@@ -1,5 +1,17 @@
 package com.asikimu.swingy.display;
 
+import com.asikimu.swingy.CreateHero.Hero;
+import com.asikimu.swingy.Files.ReadFile;
+import com.asikimu.swingy.Files.WriteFile;
+import com.asikimu.swingy.map.GuiMap;
+
+import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class DisplayGui extends JFrame {
     private String player;
     private String artifact;
@@ -22,7 +34,7 @@ public class DisplayGui extends JFrame {
     private JTextField playerName;
     private JTextArea area;
     private JButton welcomeBtn, createPlayer, selectPlayer;
-    private Hero hero = new Hero();
+    private com.asikimu.swingy.CreateHero.Hero hero = new Hero();
     private GuiMap map;
 
 
@@ -167,7 +179,7 @@ public class DisplayGui extends JFrame {
             @Override
             public void valueChanged(ListSelectionEvent arg0) {
                 heroData = heroList.getSelectedValue().toString();
-                hero = GameView.dbHero(heroData);
+                hero = StartGame.dbHero(heroData);
 
             }
         });
@@ -202,7 +214,7 @@ public class DisplayGui extends JFrame {
     }
 
     public void heroStats(){
-        hero = GameView.NewHero(player, type);
+        hero = StartGame.NewHero(player, type);
         JLabel l1, l2, l3, l4, l5, l6, l7, l8;
         JButton enter;
 

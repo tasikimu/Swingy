@@ -1,4 +1,6 @@
-package com.asikimu.swingy.Villians;
+package com.asikimu.swingy.model.Villians;
+
+import com.asikimu.swingy.model.Weapons.Artifacts;
 
 public class Villian {
    private int xcoord;
@@ -81,5 +83,4 @@ public class Villian {
     }
 
 
-}
 }

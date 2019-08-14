@@ -1,5 +1,19 @@
 package com.asikimu.swingy.map;
 
+//import com.asikimu.swingy.model.Villians.Skeleton;
+import com.asikimu.swingy.model.CreateHero.Asassian;
+import com.asikimu.swingy.model.CreateHero.Hero;
+import com.asikimu.swingy.model.CreateHero.HeroStats;
+import com.asikimu.swingy.model.CreateHero.Ninja;
+import com.asikimu.swingy.model.Villians.Monster;
+import com.asikimu.swingy.model.Villians.Skeleton;
+import com.asikimu.swingy.model.Weapons.Armor;
+import com.asikimu.swingy.model.Weapons.Artifacts;
+import com.asikimu.swingy.model.Weapons.Helm;
+import com.asikimu.swingy.model.Weapons.Weapon;
+
+import java.util.Random;
+
 public class Players {
    public static Hero newPlayer(String hero, String player, HeroStats stats, Artifacts artifact){
 
@@ -7,13 +21,13 @@ public class Players {
                 return new Ninja(player, stats, artifact);
             }
             else if (hero.equals("Assassian")){
-                return new Assassian(player, stats, artifact);
+                return new Asassian(player, stats, artifact);
             }
             else
                 return null;
         }
 
-        public static Villian newVillian(Hero hero){
+        public static Monster newVillian(Hero hero){
             Random random = new Random();
             int villian = random.nextInt(2) + 1;
             String artifact = Artifacts.randomiseArtifact();
@@ -79,5 +93,4 @@ public class Players {
             }
             return null;
         }
-}
 }

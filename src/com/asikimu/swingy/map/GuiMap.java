@@ -1,21 +1,29 @@
 package com.asikimu.swingy.map;
 
+import com.asikimu.swingy.Files.ReadFile;
+import com.asikimu.swingy.Villians.Villian;
+
+import javax.swing.*;
+import java.awt.event.WindowEvent;
+import java.util.ArrayList;
+import java.util.Random;
+
 public class GuiMap extends JFrame {
     private static final long serialVersionUID = 42L;
 
-    private static ArrayList<Villian> enemyArray = new ArrayList<>();
-    private static ArrayList<Villian> tempArray = new ArrayList<>();
+    private static ArrayList<com.asikimu.swingy.Villians.Villian> enemyArray = new ArrayList<>();
+    private static ArrayList<com.asikimu.swingy.Villians.Villian> tempArray = new ArrayList<>();
     private static int ycoord;
     private static int xcoord;
     private int[][] map;
     private int size, villians, xpos, ypos, oldx, oldy, level;
-    private Hero hero;
-    private Villian enemy = new Villian();
+    private com.asikimu.swingy.CreateHero.Hero hero;
+    private com.asikimu.swingy.Villians.Villian enemy = new Villian();
     private boolean set = false;
     private JTextArea area = new JTextArea();
     private JFrame frame;
 
-    public GuiMap(Hero hero, JFrame frame) {
+    public GuiMap(com.asikimu.swingy.CreateHero.Hero hero, JFrame frame) {
         this.hero = hero;
         this.frame = frame;
     }
@@ -161,7 +169,7 @@ public class GuiMap extends JFrame {
         area.append("Level: " + String.valueOf(hero.getHeroStats().getLevel()) + " | " +
                 "Attack: " + hero.getHeroStats().getAttack() + " | " +
                 "Defence: " + hero.getHeroStats().getDefense() + " | " +
-                "Hitpoints: " + String.valueOf(hero.getHeroStats().getHitPoints()) + " | " +
+                "Hit points: " + String.valueOf(hero.getHeroStats().getHitPoints()) + " | " +
                 "Experience: " + String.valueOf(hero.getHeroStats().getExperience()) + "\n\n");
 
         for (int y = 0; y < ycoord; y++) {

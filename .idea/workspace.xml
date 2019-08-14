@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51fe9e24-d77c-459c-99eb-4d334d4eb528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Armor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Helm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Asassian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Asassian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/HeroStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/HeroStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Ninja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Ninja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Skeleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Skeleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Villian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Villian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,103 +28,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java">
+        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="561">
+              <caret line="299" column="62" selection-start-line="299" selection-start-column="62" selection-end-line="299" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayHero.java">
+        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="1040">
+              <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Armor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Helm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Weapon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="769">
+              <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Asassian.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,11 +101,25 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/Files/WriteFile.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayHero.java" />
-        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java" />
-        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/com/asikimu/swingy/main.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Ninja.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Hero.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Asassian.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/HeroStats.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Villian.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Skeleton.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Monster.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java" />
+        <option value="$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java" />
       </list>
     </option>
   </component>
@@ -154,7 +130,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -163,49 +139,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="display" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
               <item name="Files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swingy" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="CreateHero" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="asikimu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="asikimu" type="462c0819:PsiDirectoryNode" />
+              <item name="Swingy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swingy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="swingy" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
@@ -216,7 +207,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,6 +222,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,16 +248,17 @@
       <updated>1565686419512</updated>
       <workItem from="1565686438606" duration="897000" />
       <workItem from="1565693973518" duration="3032000" />
+      <workItem from="1565774295067" duration="3093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3929000" />
+    <option name="totallyTimeSpent" value="7022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +266,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -285,7 +277,6 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -295,6 +286,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,62 +321,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Controllers.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Villians/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Villians/Bones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Villians/Villian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/Hero.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Controllers.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Villians/Monster.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Villians/Bones.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Villians/Villian.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/Hero.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/HeroStats.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/Asassian.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/Ninja.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Helm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayHero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="368">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="304">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="832">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="-623">
+          <caret line="268" column="25" selection-start-line="268" selection-start-column="25" selection-end-line="268" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2547#3395#0" expanded="true" />
+            <element signature="e#3394#3395#0" expanded="true" />
+            <element signature="e#4090#4284#0" expanded="true" />
+            <element signature="e#4283#4284#0" expanded="true" />
+            <element signature="e#4327#4569#0" expanded="true" />
+            <element signature="e#4568#4569#0" expanded="true" />
+            <element signature="e#5275#5663#0" expanded="true" />
+            <element signature="e#5662#5663#0" expanded="true" />
+            <element signature="e#6192#6448#0" expanded="true" />
+            <element signature="e#6447#6448#0" expanded="true" />
+            <element signature="e#6401#6809#0" expanded="true" />
+            <element signature="e#6808#6809#0" expanded="true" />
+            <element signature="e#8999#9737#0" expanded="true" />
+            <element signature="e#9736#9737#0" expanded="true" />
+            <element signature="e#10247#10418#0" expanded="true" />
+            <element signature="e#10417#10418#0" expanded="true" />
+            <element signature="e#10454#10624#0" expanded="true" />
+            <element signature="e#10623#10624#0" expanded="true" />
+            <element signature="e#10659#10829#0" expanded="true" />
+            <element signature="e#10828#10829#0" expanded="true" />
+            <element signature="e#10864#11035#0" expanded="true" />
+            <element signature="e#11034#11035#0" expanded="true" />
+            <element signature="e#11775#11975#0" expanded="true" />
+            <element signature="e#11974#11975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,62 +424,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/HeroStats.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayConsole.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/GuiMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/DisplayHero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/Asassian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/CreateHero/Ninja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/Herostats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="4192">
+          <caret line="262" column="56" selection-start-line="262" selection-start-column="56" selection-end-line="262" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/display/StartGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="192">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Ninja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-end-line="1" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -462,43 +505,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Armor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Helm.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Villian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Skeleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Villians/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/HeroStats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Artifacts.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/CreateHero/Asassian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="80">
+          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/model/Weapons/Weapon.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/ConsoleMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="561">
+          <caret line="299" column="62" selection-start-line="299" selection-start-column="62" selection-end-line="299" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/Files/ReadFile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/map/Players.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="62" column="68" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asikimu/swingy/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="769">
+          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

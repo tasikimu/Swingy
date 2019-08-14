@@ -1,5 +1,12 @@
 package com.asikimu.swingy.map;
 
+import com.asikimu.swingy.Files.ReadFile;
+import com.asikimu.swingy.display.DisplayHero;
+import com.asikimu.swingy.model.CreateHero.Hero;
+
+import java.io.Console;
+import java.util.Random;
+
 public class Controller {
    public Controller() {
     }
@@ -8,7 +15,7 @@ public class Controller {
         ConsoleMap printMap = new ConsoleMap(hero);
 
         printMap.printMap();
-        HeroDisplay.printDirections();
+        DisplayHero.printDirections();
         Console console = System.console();
         while (true) {
             String line = console.readLine();
@@ -20,20 +27,20 @@ public class Controller {
                 if (direction == 1) {
                     printMap.updateHeroPosition(1, 0);
                     printMap.printMap();
-                    HeroDisplay.printDirections();
+                    DisplayHero.printDirections();
                 } else if (direction == 2) {
                     printMap.updateHeroPosition(0, 1);
                     printMap.printMap();
-                    HeroDisplay.printDirections();
+                    DisplayHero.printDirections();
                 } else if (direction == 3) {
                     printMap.updateHeroPosition(-1, 0);
                     printMap.printMap();
-                    HeroDisplay.printDirections();
+                    DisplayHero.printDirections();
                 }
                 else if (direction == 4) {
                     printMap.updateHeroPosition(0, -1);
                     printMap.printMap();
-                    HeroDisplay.printDirections();
+                    DisplayHero.printDirections();
                 }
                     else if(direction == 5)
                     {
@@ -56,7 +63,7 @@ public class Controller {
         return false;
     }
 
-    public static int fight(Hero hero, Villian enemy) {
+    public static int fight(Hero hero, com.asikimu.swingy.Villians.Villian enemy) {
         int fight = 0, won = 0, hit = 0;
         Random random = new Random();
 

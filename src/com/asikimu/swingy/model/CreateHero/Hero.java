@@ -1,4 +1,8 @@
-package com.asikimu.swingy.CreateHero;
+package com.asikimu.swingy.model.CreateHero;
+
+import com.asikimu.swingy.model.Weapons.Artifacts;
+
+import javax.validation.constraints.NotNull;
 
 public class Hero {
   @NotNull

@@ -1,5 +1,17 @@
 package com.asikimu.swingy.map;
 
+import com.asikimu.swingy.Files.ReadFile;
+import com.asikimu.swingy.model.Villians.Villian;
+import com.asikimu.swingy.model.CreateHero.Hero;
+//import com.asikimu.swingy.model.Villians.*;
+import com.asikimu.swingy.model.Weapons.Armor;
+import com.asikimu.swingy.model.Weapons.Helm;
+import com.asikimu.swingy.model.Weapons.Weapon;
+
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
+
 public class ConsoleMap {
    private static ArrayList<Villian> enemyArray = new ArrayList<>();
     private static ArrayList<Villian> tempArray = new ArrayList<>();
@@ -246,7 +258,7 @@ public class ConsoleMap {
 
                     if (option == 1) {
                         enemyArray.removeAll(enemyArray);
-                        GameController.run(hero);
+                        Controller.run(hero);
 //                        System.out.println("Continue to play game.");
                     } else if (option == 2) {
                         System.out.println("*****Thanks for taking the time to play this game...Until next time*****\n\n\n");
@@ -285,7 +297,7 @@ public class ConsoleMap {
                         }
                     } else if (choice == 2) {
                         Villian crossed = getCrossedEnemy();
-                        int won = GameController.fight(hero, crossed);
+                        int won = Controller.fight(hero, crossed);
                         if (won == 1) {
                             won(crossed);
                             removeVillian(crossed);
@@ -308,7 +320,7 @@ public class ConsoleMap {
     public void won(Villian crossed) {
         enemyArray.remove(crossed);
         upgradeXP(2);
-        if (GameController.inLuck() == true) {
+        if (Controller.inLuck() == true) {
             System.out.println("You killed the enemy, and he dropped down an artifact.\nYou can pickup enemy artifact (" + crossed.getArtifact().getType() + ")\n" +
                     "1. Pickup\n" +
                     "2. You have gained some experience, continue with your advanture");
@@ -327,14 +339,14 @@ public class ConsoleMap {
                             hero.setArtifact(weapon);
                             hero.getHeroStats().setAttack(65);
                             ReadFile.updateFile(hero);
-                            GameController.run(hero);
+                            Controller.run(hero);
 
                         } else if (type.equals("Armor")) {
                             Armor armor = new Armor("Armor");
                             hero.setArtifact(armor);
                             hero.getHeroStats().setDefense(55);
                             ReadFile.updateFile(hero);
-                             GameController.run(hero);
+                             Controller.run(hero);
                              System.out.println("armor");
                         }
                         else if (type.equals("Helm")) {
@@ -342,7 +354,7 @@ public class ConsoleMap {
                             hero.setArtifact(helm);
                             hero.getHeroStats().setHitPoints(75);
                             ReadFile.updateFile(hero);
-                             GameController.run(hero);
+                             Controller.run(hero);
                              System.out.println("helm");
                         }
                     } else if (option == 2) {
@@ -359,7 +371,7 @@ public class ConsoleMap {
             } catch (InterruptedException e) {
                 System.exit(0);
             }
-            GameController.run(hero);
+            Controller.run(hero);
         }
     }
 
