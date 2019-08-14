@@ -2,6 +2,7 @@ package com.asikimu.swingy.display;
 
 import com.asikimu.swingy.Files.ReadFile;
 import com.asikimu.swingy.map.Controller;
+import com.asikimu.swingy.model.CreateHero.Hero;
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class DisplayConsole {
    public static void begin() {
         String player;
         int type, createHero, option = 0, play;
-        com.asikimu.swingy.CreateHero.Hero hero;
+        Hero hero;
 
         try {
             createHero = DisplayHero.playerSetUp();
@@ -18,7 +19,7 @@ public class DisplayConsole {
                 player = DisplayHero.WelcomePlayer();
                 type = DisplayHero.printHeroSelection();
                 hero = StartGame.NewHero(player, type);
-                play = Herostats.printDetails(type, player, hero);
+                play = HeroLevel.printDetails(type, player, hero);
                 if (play == 1) {
 
                     Controller.run(hero);

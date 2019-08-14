@@ -15,6 +15,7 @@ public class main {
             if (args[0].equals("console")) {
                 DisplayConsole.begin();
             }
+            
             else {
                 DisplayGui gui = new DisplayGui();
                 gui.welcomeToGui();

@@ -30,7 +30,7 @@ public class StartGame {
             defense = 100;
             hitpoints = 100;
             experience = 1000;
-            Herostats heroStats = new Herostats(type, level, attack, defense, hitpoints, experience);
+            HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
             newHero = Players.newPlayer(type, player, heroStats, weapon);
             stats = type + " " + player + " " + level + " " + attack + " " + defense + " " + hitpoints + " " + experience + " " + artifact;
         }
@@ -41,7 +41,7 @@ public class StartGame {
             defense = 100 + armor.getDefense();
             hitpoints = 100;
             experience = 1000;
-            Herostats heroStats = new Herostats(type, level, attack, defense, hitpoints, experience);
+            HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
             newHero = Players.newPlayer(type, player, heroStats, armor);
             stats = type + " " + player + " " + level + " " + attack + " " + defense + " " + hitpoints + " " + experience + " " + artifact;
         }
@@ -52,7 +52,7 @@ public class StartGame {
             defense = 100;
             hitpoints = 100;
             experience = 1000;
-            Herostats heroStats = new Herostats(type, level, attack, defense, hitpoints, experience);
+            HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
             newHero = Players.newPlayer(type, player, heroStats, helm);
             stats = type + " " + player + " " + level + " " + attack + " " + defense + " " + hitpoints + " " + experience + " " + artifact;
         }
@@ -84,7 +84,7 @@ public class StartGame {
         int hitpoints = Integer.parseInt(items[5]);
         int experience = Integer.parseInt(items[6]);
         String artifact = items[7];
-        Herostats heroStats = new Herostats(type, level, attack, defense, hitpoints, experience);
+        HeroStats heroStats = new HeroStats(type, level, attack, defense, hitpoints, experience);
 
         if (artifact.equals("WEAPON")){
             Weapon weapon = new Weapon("Weapon");

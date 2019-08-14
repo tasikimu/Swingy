@@ -70,7 +70,7 @@ public class Players {
                     defense = 100;
                     hitpoints = 100;
                     experience = 0;
-                    return new Skeleton(level, attack, defense, hitpoints, experience, weapon);
+                    return new Monster(level, attack, defense, hitpoints, experience, weapon);
                 }
                 else if (artifact.equals("ARMOR")){
                     Armor armor = new Armor("Armor");
@@ -79,7 +79,7 @@ public class Players {
                     defense = 100 + armor.getDefense();
                     hitpoints = 100;
                     experience = 0;
-                    return new Skeleton(level, attack, defense, hitpoints, experience, armor);
+                    return new Monster(level, attack, defense, hitpoints, experience, armor);
                 }
                 else if (artifact.equals("HELM")){
                     Helm helm = new Helm("Helm");
@@ -88,7 +88,7 @@ public class Players {
                     defense = 100;
                     hitpoints = 100;
                     experience = 0;
-                    return new Skeleton(level, attack, defense, hitpoints, experience, helm);
+                    return new Monster(level, attack, defense, hitpoints, experience, helm);
                 }
             }
             return null;
