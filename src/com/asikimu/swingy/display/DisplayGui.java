@@ -43,7 +43,7 @@ public class DisplayGui extends JFrame {
 
     public void createFrame(){
         label = new JLabel("CREATE PLAYER");
-        label.setBackground(Color.red);
+        label.setBackground(Color.blue);
         label.setBounds(220,200, 200,30);
         label1 = new JLabel("ENTER NAME PLEASE");
         label1.setBounds(210,240, 200,30);

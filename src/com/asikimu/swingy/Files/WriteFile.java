@@ -34,7 +34,8 @@ public class WriteFile {
             fWriter.append('\n');
             fWriter.close();
             System.out.println(str);
-        } catch (IOException ioe) {
+        }
+        catch (IOException ioe) {
             ioe.printStackTrace();
         }
     }
